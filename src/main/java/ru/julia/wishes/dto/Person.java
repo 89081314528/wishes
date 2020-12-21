@@ -1,4 +1,4 @@
-package ru.julia.wishes.controllers;
+package ru.julia.wishes.dto;
 
 public class Person {
     private final String department;

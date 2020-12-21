@@ -14,6 +14,9 @@ public class Department {
     @Column(name = "name")
     String name;
 
+    public Department(int i, String joe) {
+    }
+
     public void setId(Long id) {
         this.id = id;
     }

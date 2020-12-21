@@ -18,6 +18,13 @@ public class Employee {
     @Column(name = "department_id")
     Long departmentId;
 
+    public Employee(int i, String joe, int i1, int i2) {
+        this.id = (long) i;
+        this.name = joe;
+        this.salary = (long) i1;
+        this.departmentId = (long) i2;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
