@@ -9,6 +9,7 @@ import ru.julia.wishes.service.EmployeeService;
 import java.util.List;
 /**
  * Department Highest Salary
+ * n-th Highest Salary из таблицы Employee
  */
 @RestController
 public class EmployeeController {
